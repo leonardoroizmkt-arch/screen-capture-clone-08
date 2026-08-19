@@ -193,7 +193,7 @@ function Home() {
               GOIÁS · MATO GROSSO · DISTRITO FEDERAL
             </p>
             <h1 className="font-display text-4xl md:text-6xl leading-[1.05] mb-6">
-              O advogado que entende de safra, não só de processo.
+              O escritorio que entende de safra, não só de processo.
             </h1>
             <p className="text-lg text-sand/80 leading-relaxed mb-9 max-w-xl">
               Assessoria jurídica para produtores rurais e empresas do agronegócio. Regularização de
