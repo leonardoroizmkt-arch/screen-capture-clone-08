@@ -2,7 +2,7 @@ import { createFileRoute } from "@tanstack/react-router";
 import { useState } from "react";
 import heroImg from "@/assets/hero-agro.jpg";
 
-const WHATSAPP = "https://wa.me/55DDDNUMERO";
+const WHATSAPP = "https://wa.me/5562982184938";
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -372,12 +372,12 @@ function Home() {
               <p>
                 <span className="text-gold font-semibold">WhatsApp</span>
                 <br />
-                [inserir número]
+                62 98218-4938
               </p>
               <p>
                 <span className="text-gold font-semibold">E-mail</span>
                 <br />
-                [inserir e-mail]
+                caldasebeghini@gmail.com
               </p>
               <p>
                 <span className="text-gold font-semibold">Escritório</span>
