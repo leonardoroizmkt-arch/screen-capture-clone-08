@@ -2,7 +2,7 @@ import { createFileRoute } from "@tanstack/react-router";
 import { useState } from "react";
 import heroImg from "@/assets/hero-agro.jpg";
 
-const WHATSAPP = "https://wa.me/5562982184938";
+const WHATSAPP = "https://wa.me/+5562982184938";
 
 export const Route = createFileRoute("/")({
   head: () => ({
