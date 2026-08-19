@@ -158,3 +158,13 @@
     color: var(--color-foreground);
   }
 }
+
+@utility rule {
+  height: 2px;
+  width: 56px;
+  background: var(--gold);
+}
+
+html {
+  scroll-behavior: smooth;
+}
