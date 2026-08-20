@@ -305,7 +305,7 @@ function Home() {
           {[
             ["10", "anos de atuação"],
             ["50 mil", "hectares sob assessoria"],
-            ["3", "estados: GO, MT e DF"],
+            ["4", "estados: GO, MT, DF e MG"],
           ].map(([n, label], i) => (
               <div key={i} className="bg-deep p-8">
                 <p className="font-display text-4xl text-gold mb-2">{n}</p>
