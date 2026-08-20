@@ -190,7 +190,7 @@ function Home() {
         <div className="mx-auto max-w-7xl px-5 py-24 md:py-36">
           <div className="max-w-2xl">
             <p className="text-gold text-xs tracking-[0.3em] mb-6">
-              GOIÁS · MATO GROSSO · DISTRITO FEDERAL
+              GOIÁS · MATO GROSSO · DISTRITO FEDERAL · MINAS GERAIS
             </p>
             <h1 className="font-display text-4xl md:text-6xl leading-[1.05] mb-6">
               O escritorio que entende de safra, não só de processo.
