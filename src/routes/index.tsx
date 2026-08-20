@@ -301,18 +301,18 @@ function Home() {
             </p>
           </div>
 
-          <div className="grid grid-cols-2 gap-px bg-sand/10 rounded-lg overflow-hidden">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-px bg-sand/10 rounded-lg overflow-hidden">
           {[
             ["10", "anos de atuação"],
-            ["", ""],
             ["50 mil", "hectares sob assessoria"],
             ["3", "estados: GO, MT e DF"],
-          ].map(([n, label]) => (
-              <div key={label} className="bg-deep p-8">
+          ].map(([n, label], i) => (
+              <div key={i} className="bg-deep p-8">
                 <p className="font-display text-4xl text-gold mb-2">{n}</p>
                 <p className="text-sm text-sand/60">{label}</p>
               </div>
             ))}
+
           </div>
         </div>
       </section>
