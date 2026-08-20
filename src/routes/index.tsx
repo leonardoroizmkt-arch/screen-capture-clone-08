@@ -304,8 +304,8 @@ function Home() {
           <div className="grid grid-cols-2 gap-px bg-sand/10 rounded-lg overflow-hidden">
           {[
             ["10", "anos de atuação"],
-            ["+ de 130", "fazendas regularizadas"],
-            ["179 mil", "hectares sob assessoria"],
+            ["", ""],
+            ["50 mil", "hectares sob assessoria"],
             ["3", "estados: GO, MT e DF"],
           ].map(([n, label]) => (
               <div key={label} className="bg-deep p-8">
