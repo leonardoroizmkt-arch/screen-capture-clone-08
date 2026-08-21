@@ -16,11 +16,10 @@ export default defineConfig({
   vite: { base },
   tanstackStart: {
     // Redirect TanStack Start's bundled server entry to src/server.ts (our SSR error wrapper).
-    // nitro/vite builds from this
-    server: { entry: "server" },
+    // nitro/vite builds from this. The prerender preview server needs the default entry.
     ...(staticBuild
       ? { prerender: { enabled: true, crawlLinks: true }, pages: [{ path: "/" }] }
-      : {}),
+      : { server: { entry: "server" } }),
   },
   ...(staticBuild ? { nitro: { preset: "static" as const } } : {}),
 });
