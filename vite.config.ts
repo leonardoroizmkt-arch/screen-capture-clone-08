@@ -21,5 +21,5 @@ export default defineConfig({
       ? { prerender: { enabled: true, crawlLinks: true }, pages: [{ path: "/" }] }
       : { server: { entry: "server" } }),
   },
-  ...(staticBuild ? { nitro: { preset: "static" as const } } : {}),
+  ...(staticBuild ? { nitro: false as const } : {}),
 });
