@@ -34,9 +34,8 @@ jobs:
       - name: Build static site
         env:
           STATIC_BUILD: "true"
-          # Project pages are served from /<repo>/; user/org pages and custom
-          # domains are served from /. configure-pages resolves the right one.
-          BASE_PATH: ${{ steps.pages.outputs.base_path && format('{0}/', steps.pages.outputs.base_path) || '/' }}
+          # Custom domain (public/CNAME) serves the site from the root path.
+          BASE_PATH: "/"
         run: bun run build
 
       - name: Add .nojekyll
