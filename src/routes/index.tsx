@@ -253,9 +253,8 @@ function Home() {
 
           <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
             {areas.map((a) => (
-              <a
+              <div
                 key={a.href}
-                href={a.href}
                 className="group block border border-night/10 rounded-lg p-7 hover:border-gold hover:shadow-lg transition"
               >
                 <div className="text-gold mb-4">
@@ -274,10 +273,7 @@ function Home() {
                   {a.title}
                 </h3>
                 <p className="text-night/65 leading-relaxed">{a.text}</p>
-                <span className="inline-block mt-5 text-sm font-semibold text-gold">
-                  Ver página →
-                </span>
-              </a>
+              </div>
             ))}
           </div>
         </div>
