@@ -7,7 +7,7 @@ const WHATSAPP = "https://wa.me/+5562982184938";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Advogado do Agronegócio em Goiânia | Caldas & Beghini" },
+      { title: "caldas & beghini" },
       {
         name: "description",
         content:
