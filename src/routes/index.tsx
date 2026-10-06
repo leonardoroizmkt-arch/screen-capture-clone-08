@@ -7,7 +7,7 @@ const WHATSAPP = "https://wa.me/+5562982184938";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "caldas & beghini" },
+      { title: "Caldas & Beghini" },
       {
         name: "description",
         content:
